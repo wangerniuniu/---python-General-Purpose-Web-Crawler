@@ -42,7 +42,7 @@ def insert_data(data):
              print(error3)
 time_rule = re.compile(r'\d{4}-\d{2}-\d{2}')
 # 打开数据库连接
-db = pymysql.connect(host='123.207.167.196', port=3306, user='python', passwd='123abcABC123', db='python',charset='utf8')
+db = pymysql.connect(host='123.207.167.196', port=3306, user='python', passwd='############', db='python',charset='utf8')
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()
 db.commit()
